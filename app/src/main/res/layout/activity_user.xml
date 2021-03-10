@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UserActivity">
+
+    <ImageView
+        android:id="@+id/profilImg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/namaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Rizky Abdul Jabar"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/nrpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="NRP : 2103187013"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/kelasText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Kelas : PJJ TEKNIK INFORMATIKA 2018"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/blue_gradient"
+        android:text="LOGOUT" />
+</LinearLayout>
